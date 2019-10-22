@@ -1,0 +1,25 @@
+<!--pages/newscontent/newscontent.wxml-->
+<view class="newscontent_container">
+  <view class="newscontent_title">
+    <text class="newscontent_titlesize">{{title}}</text>
+  </view>
+  <view class="newscontent_ct">创建日期 : {{createtime}}</view>
+  <view class="newscontent_url">地址 : {{url}}</view>
+  <view class="explain">因目前个人帐号无法在小程序内打开网页,请复制链接打开浏览器查看</view>
+  <view class="newscontent_pic">
+    <button bindtap="copy" type="primary" class="copy_button"> 复制链接 </button>
+    <view>
+      <image src="{{showselect?'../../images/love_select.png':'../../images/love.png'}}" bindtap="lovenews"></image>
+    </view>
+  </view>
+
+</view>
+
+<view class="comment_number">
+  <image src="../../images/comment_msg.svg" class="dis_img"></image>讨论（{{comment.num}}）</view>
+<view wx:for="{{commentlist}}">
+  <my-comment comment="{{item }}"></my-comment>
+</view>
+<my-publishcomment bindtap="joindiscuss"></my-publishcomment>
+<view class="more" bindtap="getMore">加载更多...</view>
+<footer></footer>

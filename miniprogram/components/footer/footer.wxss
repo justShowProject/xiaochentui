@@ -1,0 +1,6 @@
+/* components/footer/footer.wxss */
+.footer {
+  font-size: 25rpx;
+  color:rgb(146, 140, 140);
+  text-align: center;
+}

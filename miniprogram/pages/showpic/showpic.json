@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "mp-gallery": "/weui-miniprogram/gallery/gallery",
+    "footer": "/components/footer/footer",
+    "slider": "/components/slide/slide"
+  },
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "展示",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true
+}

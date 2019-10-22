@@ -1,0 +1,28 @@
+<!--miniprogram/pages/inner/inner.wxml-->
+<view class="introduction_container">
+  <view class="introduction_title">简历</view>
+  <view class="introduction_base">
+    <view style="font-size:45rpx;font-weight:700;color:black">陈奎奎</view>
+    <view>23岁 本科 1年</view>
+    <view>电话/微信 : 18681844929</view>
+    <view>邮箱 : a15771658411@gmail.com</view>
+    <view>github : a15771658411@gmail.com</view>
+  </view>
+  <view class="gray_line"></view>
+  <view class="introduction_line">
+    <view class="">教育经历 : </view>西安理工大学 --- 计算机科学与技术.本科 2014-2018</view>
+  <view class="introduction_line">
+    <view>个人技能 :</view> 熟悉JS CSS3 H5 ES6 VUE 微信小程序 了解Node.js ,Mysql</view>
+  <view class="gray_line"></view>
+  <view class="introduction_line">
+    <view>工作经历 : </view>2018-2019 惠州光弘科技股份有限公司 web前端开发</view>
+  <view class="introduction_line">
+    <view>项目经验 : </view>小陈推微信小程序: 绿色产品检测平台: 合理化提案系统:
+  </view>
+  <view class="gray_line"></view>
+  <view class="introduction_line">
+    <view>自我介绍 : </view>
+    乐于沟通不尴尬 , 吃苦耐劳能加班
+  </view>
+</view>
+<footer></footer>

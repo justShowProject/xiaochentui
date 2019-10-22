@@ -1,0 +1,69 @@
+/* pages/newscontent/newscontent.wxss */
+.newscontent_container {
+  background-color: rgb(239, 240, 239);
+  width: 100%;
+}
+.newscontent_container view {
+  margin-left: 20rpx;
+}
+.newscontent_titlesize, {
+  font-size: 40rpx;
+}
+
+.explain {
+  color:red;
+  margin-top: 50rpx;
+  
+  font-size: 25rpx;
+  text-align: center;
+}
+.newscontent_title {
+  padding-top: 20rpx;
+  font-size: 50rpx;
+}
+.newscontent_pic {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 150rpx;
+
+}
+.newscontent_pic view{
+  flex: 1;
+  text-align: center;
+  
+}
+.newscontent_pic image{
+  width:48rpx;
+  height: 48rpx;
+  margin-top: 60rpx;
+  
+}
+.newscontent_url {
+  margin-top: 20rpx;
+}
+.copy_button {
+  width:400rpx;
+  margin-top: 50rpx;
+}
+.comment_number {
+  width:100%;
+  margin-top: 20rpx;
+  text-align: center;
+  font-size: 30rpx;
+  height: 50rpx;
+  border-bottom: 1rpx solid rgb(226, 222, 222);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+.dis_img  {
+  height:40rpx;
+  width:40rpx;
+}
+.more {
+  font-size: 35rpx;
+  color: rgb(85, 83, 83);
+  text-align: center;
+}

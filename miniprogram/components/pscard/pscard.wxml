@@ -1,0 +1,5 @@
+<!--components/pscard/pscard.wxml-->
+<view class="card_container"><view class="card_title">{{card.title}}</view>
+<view wx:for="{{card.uselist}}" class="card_list"><view>{{item.title}}</view><view class="arrow">
+<navigator url="{{item.page}}">{{item.extra}}</navigator></view></view>
+</view>

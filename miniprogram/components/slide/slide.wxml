@@ -1,0 +1,36 @@
+<!--components/slide/slide.wxml-->
+<view class="page">
+  <!-- 侧边栏内容 -->
+  <view class="page-slidebar">
+    <view class="page-content">
+      <view class="wc" bindtap="changePic" data-name="pic">
+        <text >图片</text>
+      </view>
+      <view class="wc" bindtap="changePic" data-name="text">
+        <text>文字</text>
+      </view>
+    </view>
+  </view>
+  <view bindtouchmove="tap_drag" bindtouchend="tap_end" bindtouchstart="tap_start" class="page-top {{open ? ['c-state','cover'] : ''}} ">
+    <image bindtap="tap_ch" src="../../images/menu.png" class="tap_img"></image>
+    <view class="main_content" wx:if="{{showgoods}}">
+      <view class="goods" wx:for="{{getUrl}}">
+        <view>
+          <image src="{{item.url}}" class="goods_img"></image>
+        </view>
+        <view class="after_img">
+          <view>
+            <image src="../../images/comment_share.svg" class="share_img"></image> 分享</view>
+          <view>
+            <image src="../../images/comment_msg.svg" class="share_img"></image>{{comment.answer}}回复</view>
+          <view>
+            <image src="../../images/comment_point.svg" class="share_img"></image>{{comment.point}}点赞</view>
+        </view>
+      </view>
+    </view>
+    <view class="main_content" wx:if="{{showtext}}">
+      暂无文字接口
+    </view>
+
+  </view>
+</view>

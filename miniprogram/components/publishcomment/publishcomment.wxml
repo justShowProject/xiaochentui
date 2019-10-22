@@ -1,0 +1,2 @@
+<!--components/publishcomment/publishcomment.wxml-->
+<view class="pubcom_container"> <image src="../../images/comment_edit.png" class="comment_edit_img"></image> <view class="dis">讨论</view></view>

@@ -1,0 +1,6 @@
+<!--components/newslist/newslist.wxml-->
+
+<navigator url="{{url}}">
+  <view class="newslist_content">{{index+' . '}}{{title}}</view>
+</navigator>
+<view class="bdr"></view>

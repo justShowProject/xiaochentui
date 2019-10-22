@@ -1,0 +1,17 @@
+/* components/newslist/newslist.wxss */
+
+.bdr {
+  height: 20rpx;
+  box-shadow: 0 6rpx 10rpx rgba(0, 0, 1, 0.1) inset;
+  background-color: rgb(236, 236, 236);
+}
+
+.newslist_content {
+  height: 60rpx;
+  border-top: 1rpx solid rgb(240, 229, 229);
+  line-height: 60rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: 10rpx;
+}

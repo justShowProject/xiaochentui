@@ -1,0 +1,4 @@
+<!--components/navbar/navbar.wxml-->
+<view class="navbar">
+  <view wx:for="{{navlist}}" bindtap="itemtap" class="navbar_item {{num===index?'tapcolor':''}}" data-num="{{index}}"> {{item.title}}</view>
+</view>

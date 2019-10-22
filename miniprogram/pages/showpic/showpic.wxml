@@ -1,0 +1,10 @@
+<!--miniprogram/pages/showpic/showpic.wxml-->
+<view class="swiper_container">
+  <swiper indicator-dots="true" autoplay="true" circular="{{false}}" vertical="{{false}}" interval="2000" duration="500" previous-margin="0px" next-margin="0px">
+    <swiper-item wx:for="{{piclist}}" bindtap="ingallery">
+      <image src="{{item.url}}" height="200px;" mode=""></image>
+    </swiper-item>
+  </swiper>
+</view>
+<mp-gallery show="{{show}}" delete="{{false}}" bindchange="change" bindhide="hide" img-urls="{{imgUrls}}" hide-on-click="{{true}}" current="1"></mp-gallery>
+<slider getUrl="{{piclist}}"></slider>

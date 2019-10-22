@@ -1,0 +1,24 @@
+/* components/publishcomment/publishcomment.wxss */
+.pubcom_container {
+  background-color: red;
+  border-radius: 50%;
+  width:100rpx;
+  height: 100rpx;
+  color:white;
+  display: flex;
+  font-size: 26rpx;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  position: fixed;
+  top:900rpx;
+  right: 10rpx;
+}
+.comment_edit_img {
+  width:40rpx;
+  height: 40rpx;
+  margin: 0 auto;
+}
+.dis {
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+/* miniprogram/pages/inner/inner.wxss */
+.introduction_container {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.introduction_title {
+  text-align: center;
+  font-size: 50rpx;
+}
+
+.introduction_base view,.introduction_line {
+  font-size: 28rpx;
+  color:rgb(83, 83, 83);
+}
+.introduction_line view{
+  font-size: 35rpx;
+  font-weight: 800;
+}

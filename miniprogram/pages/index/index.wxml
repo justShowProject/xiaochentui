@@ -1,0 +1,10 @@
+<mp-searchbar ext-class="searchbgc" placeholder="请输入关键字搜索" bindselectresult="selectResult" search="{{search}}">
+</mp-searchbar>
+<mp-dialog title="错误提示" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+  <view>请检查网络或稍后再试</view>
+</mp-dialog>
+<view>
+  <my-navbar navlist="{{navbaritem}}" bind:mytap="mytap"></my-navbar>
+</view>
+<my-newslist wx:for="{{getData}}" index="{{index+1}}" title="{{item.title}}" url="../newscontent/newscontent?title={{item.title}}&createtime={{item.CreateTime}}&id={{item.id}}&url={{item.url}}"></my-newslist>
+<footer></footer>

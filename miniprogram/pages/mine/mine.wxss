@@ -1,0 +1,44 @@
+/* pages/mine/mine.wxss */
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.header_container {
+  display: flex;
+  align-content: center;
+  margin: 0 auto;
+  background-color: white;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  
+  width:90%
+}
+.header_container view {
+  height: 84px;
+  text-align: center;
+  line-height: 84px;
+}
+.bgc {
+  background-color:rgb(216, 216, 216);
+  padding-top: 20rpx;
+}
+.self_data {
+  height: 60rpx;
+  width:200rpx;
+  font-size: 20rpx;
+  color:gray;
+  margin-left: 80rpx;
+}
+.devider_list {
+  height: 80rpx;
+  display: flex;
+}
+.devider_list view {
+  flex:1;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border-left: 1rpx solid rgb(228, 227, 227);
+}

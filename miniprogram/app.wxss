@@ -1,0 +1,5 @@
+.gray_line {
+  height: 20rpx;
+  box-shadow: 0 6rpx 10rpx rgba(0, 0, 1, 0.1) inset;
+  background-color: rgb(236, 236, 236);
+}

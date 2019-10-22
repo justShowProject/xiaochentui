@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "my-pscard":"/components/pscard/pscard",
+    "footer": "/components/footer/footer"
+  },
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "我的",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

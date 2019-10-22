@@ -1,0 +1,19 @@
+<!--pages/mine/mine.wxml-->
+<view class="bgc">
+  <view class="header_container ">
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <view>{{userInfo.nickName}}</view>
+    <view class="self_data">编辑个人资料</view>
+  </view>
+
+</view>
+<view class="devider_list">
+<view wx:for="{{dolist}}">{{item.name}} {{item.num}}</view>
+</view>
+<view class="gray_line"></view>
+<my-pscard card="{{card}}"></my-pscard>
+<view class="gray_line"></view>
+<my-pscard card="{{card2}}"></my-pscard>
+<view class="gray_line"></view>
+<my-pscard card="{{card3}}"></my-pscard>
+<footer></footer>

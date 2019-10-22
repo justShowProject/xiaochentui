@@ -1,0 +1,16 @@
+<!--components/comment/comment.wxml-->
+<view>
+  <view class="comment_container">
+    <view wx:if="{{showimport}}"></view>
+    <view class="comment_title">{{comment.title}}</view>
+    <view class="comment_content">{{comment.content}}</view>
+    <view class="comment_footer">
+      <view>
+        <image src="../../images/comment_share.svg" class="share_img"></image> 分享</view>
+      <view>
+        <image src="../../images/comment_msg.svg" class="share_img"></image>{{comment.answer}}回复</view>
+      <view>
+        <image src="../../images/comment_point.svg" class="share_img"></image>{{comment.point}}点赞</view>
+    </view>
+  </view>
+</view>

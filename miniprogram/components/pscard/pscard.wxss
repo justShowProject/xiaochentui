@@ -1,0 +1,42 @@
+/* components/pscard/pscard.wxss */
+.card_container {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.card_title {
+  font-size: 38rpx;
+  font-weight: 600;
+  height: 70rpx;
+}
+.card_list {
+  height: 70rpx;
+  border-bottom: 1px solid rgba(243, 242, 242, 0.829);
+  line-height: 60rpx;
+  display: flex;
+}
+.card_list view:nth-child(1) {
+  flex:4;
+  font-size: 28rpx;
+  font-weight: 500
+}
+.card_list view:nth-child(2){
+  flex: 1;
+  text-align: right;
+  font-size: 24rpx;
+  color: rgb(189, 184, 184);
+}
+.arrow {
+display:flex;
+justify-content:right;
+align-items:center;
+text-align: right;
+}
+.arrow::after {
+content:"";
+width:15rpx;
+height:15rpx;
+border-top:3rpx solid #ccc;
+border-right:3rpx solid #ccc;
+transform:rotate(45deg);
+display:block;
+}
